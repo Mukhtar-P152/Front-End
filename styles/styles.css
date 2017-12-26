@@ -1,42 +1,69 @@
-*{
-	margin: 0px;
-	padding: 0px:
-}
+/* GLOBAL STYLES */
 
-body{
-	background: skyblue;
+body {
+  margin:0;
+  padding:0;
+  background: #222;
 }
-
-#header{
-	width: 100%;
-	height: 80px;
-	background: #333;
+header {
+  background: #ccc;
+  color: #444;
+  text-align: center;
 }
-
-#navbar {
-	width:1000px;
-	height: 80px;
-	float: right;
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1em;
 }
-
-#navbar li {
-	width: 250px;
-	list-style: none;
-	float: left;
+h2 {
+  font-size: 1.5em;
 }
-
-li a{
-	display: block;
-	color: white;
-	line-height: 80px;
-	text-align: center;
-	font-family: cursive;
-	font-size: 20px;
-	text-decoration: none;
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #eee;
+  text-align: center;
+  padding: 2px;
 }
+section {
+  font-size: 1em;
+  background: #888;
+   margin: 1em 1% 1em 1%;
+  
+}
+section:hover {
+  background: purple;
+}
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {  
+ body{
+	 background: #11af8d;
+	 font-family: verdana;
+ }
+ section {
+  display: inline-block;
+  width: 45%;
+  
+ }
+ section:hover {
+  background: yellow;
+}
+}
+/* END FIRST BREAKPOINT */
 
-#logo {
-	width: 250px;
-	height: 80px;
-	float: left;
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+  body{
+	 background: #f00;
+	 color: pink;
+ }
+ section {
+  
+  width: 22%;
+  
+ }
+ section:hover {
+  background: lightgreen;
+}
 }
