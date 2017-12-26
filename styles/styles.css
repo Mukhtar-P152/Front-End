@@ -40,6 +40,9 @@ nav a{
 	font-family: cursive;
 	color: white;
 }
+nav a:hover {
+	color: skyblue;
+}
 main {
   max-width: 1000px;
   margin: 0 auto;
