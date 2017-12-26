@@ -54,7 +54,7 @@ section:hover {
   background: purple;
 }
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px) {  
+@media screen and (min-width: 600px) {  
  body{
 	 background: #11af8d;
 	 font-family: verdana;
@@ -62,24 +62,29 @@ section:hover {
  section {
   display: inline-block;
   width: 45%;
-  position: relative;
-  right: 30px;
+  
   
  }
  section:hover {
   background: yellow;
 }
-
-nav il{
-	display: block;
-	color:white;
-	line-height: 80px;
-	text-align: center;
-	font-family: cursive;
-	font-size: 20px;
-	text-decorations: none;
+nav ul{
+	margin: 0;
+	padding: 0;
 }
+nav li {
+	width: 150px;
+	border-bottom: none;
+	border-left: none;
+	border-color: #888 ;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.4em;
+	display: inline-block;
+	margin-right: -4px;
+	
 }
+} 
 /* END FIRST BREAKPOINT */
 
 
@@ -120,7 +125,9 @@ nav li {
 	line-height: 50px;
 	font-size: 1.4em;
 	display: inline-block;
+	margin: 0;
 	margin-right: -4px;
+	padding: 0;
 	
 }
 }
