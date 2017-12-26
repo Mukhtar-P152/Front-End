@@ -69,11 +69,7 @@ section:hover {
  section:hover {
   background: yellow;
 }
-nav {
-	width: 1000px;
-	height: 80px;
-	float; right;
-}
+
 nav il{
 	display: block;
 	color:white;
@@ -93,11 +89,20 @@ nav il{
 	 background: #f00;
 	 color: pink;
  }
+ main{
+	 max-width: 1000px;
+	 position: relative;
+	 top: 20px;
+	 
+ }
  section {
-  max-width: 100%; 	
+  width: 200px; 	
  
  }
  section:hover {
   background: lightgreen;
+}
+nav {
+	
 }
 }
