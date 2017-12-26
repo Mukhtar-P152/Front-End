@@ -23,9 +23,8 @@ nav ul{
 	list-style:none;
 	font-size: 1em;
 	background: #888;
-	margin: 1em 1% 1em 0%;
-	padding: 0%;
-	
+	margin: 0;
+	padding: 0;
 }
 nav li {
 	
@@ -50,9 +49,13 @@ section {
    margin: 1em 1% 1em 1%;
   
 }
-section:hover {
-  background: purple;
+.body {
+	
 }
+.body h2 {
+	font-family: cursive;
+}
+
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 600px) {  
  body{
@@ -65,9 +68,7 @@ section:hover {
   
   
  }
- section:hover {
-  background: yellow;
-}
+ 
 nav ul{
 	margin: 0;
 	padding: 0;
@@ -104,9 +105,7 @@ nav li {
   width: 200px; 	
  
  }
- section:hover {
-  background: lightgreen;
-}
+ 
 nav {
 	position: relative;
 	left: 0px;

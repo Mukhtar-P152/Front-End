@@ -14,8 +14,11 @@ I started splitting the information into 3 sections to hel display the informati
 
 I haven't started adding the css instead I am concentrating on the core layout in html first, to begin giving the website some structure. All information or text i use will be listed in a seperate references section in this readme doc.
 
+In the middle of me writing my css code, the Notepadd ++ applicaiton convieniently crashed on me. Not happy.
+
 #references
 #Index page:
+https://www.engadget.com/2015/01/21/cryptocurrency-explainer/
 Website widget:
 What is blockchain information:
 What is litecoin informaiton:
