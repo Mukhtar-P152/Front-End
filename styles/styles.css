@@ -32,11 +32,14 @@ nav ul{
 }
 nav ul:hover {
 	background: #888;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+	
 }
 nav li {
 	
 	text-align: center;
-	border: 1px solid #555;
+	border: none;
 }
 nav a{
 	text-decoration: none;
