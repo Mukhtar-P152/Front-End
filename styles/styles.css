@@ -15,7 +15,7 @@ h1 {
   font-size: 2.5em;
   margin: 0;
   padding: 1em;
-  color: black;
+  color: white;
   text-shadow: white 2px;
   font-family: cursive;
 }
@@ -26,9 +26,12 @@ h2 {
 nav ul{
 	list-style:none;
 	font-size: 1em;
-	background: #888;
+	background: black;
 	margin: 0;
 	padding: 0;
+}
+nav ul:hover {
+	background: #888;
 }
 nav li {
 	
@@ -46,10 +49,10 @@ nav a:hover {
 main {
   max-width: 1000px;
   margin: 0 auto;
-  background: #eee;
+  background: black;;
   text-align: center;
   padding: 2px;
-  background: #888;
+  
 }
 section {
   font-size: 1em;
