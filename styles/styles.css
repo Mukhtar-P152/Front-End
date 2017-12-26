@@ -18,6 +18,25 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
+
+nav ul{
+	list-style:none;
+	font-size: 1em;
+	background: #888;
+	margin: 1em 1% 1em 0%;
+	padding: 0%;
+	
+}
+nav li {
+	
+	text-align: center;
+	border: 1px solid #555;
+}
+nav a{
+	text-decoration: none;
+	font-family: cursive;
+	color: white;
+}
 main {
   max-width: 1000px;
   margin: 0 auto;
@@ -43,10 +62,26 @@ section:hover {
  section {
   display: inline-block;
   width: 45%;
+  position: relative;
+  right: 30px;
   
  }
  section:hover {
   background: yellow;
+}
+nav {
+	width: 1000px;
+	height: 80px;
+	float; right;
+}
+nav il{
+	display: block;
+	color:white;
+	line-height: 80px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+	text-decorations: none;
 }
 }
 /* END FIRST BREAKPOINT */
@@ -59,9 +94,8 @@ section:hover {
 	 color: pink;
  }
  section {
-  
-  width: 22%;
-  
+  max-width: 100%; 	
+ 
  }
  section:hover {
   background: lightgreen;
