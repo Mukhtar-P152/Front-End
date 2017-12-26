@@ -104,19 +104,23 @@ nav il{
 }
 nav {
 	position: relative;
-	left: 5px;
+	left: 0px;
 }
 nav ul {
 	padding: 0;
 	margin: 0;
+	
 }
 nav li {
 	width: 250px;
 	border-bottom: none;
+	border-left: none;
+	border-color: #888 ;
 	height: 50px;
 	line-height: 50px;
 	font-size: 1.4em;
 	display: inline-block;
 	margin-right: -4px;
+	
 }
 }
