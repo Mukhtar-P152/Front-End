@@ -16,7 +16,6 @@ h1 {
   margin: 0;
   padding: 1em;
   color: white;
-  text-shadow: white 2px;
   font-family: cursive;
 }
 h2 {
@@ -32,8 +31,7 @@ nav ul{
 }
 nav ul:hover {
 	background: #888;
-	-webkit-transition: width 2s; /* Safari */
-    transition: width 2s;
+	
 	
 }
 nav li {
