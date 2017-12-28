@@ -27,6 +27,10 @@ Accessibility of website design.
 
 Mobile first design.
 
+#User Testing
+
+I got my younger siblings who aren't as computer lterate to test and play around with the website in different responsive layouts. i then changed it accordingly. The navigation around the website. i forgot to include a home button for them to go back to the index page. I got this added because of user testing.
+
 #references
 #Content:
 https://www.engadget.com/2015/01/21/cryptocurrency-explainer/
