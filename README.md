@@ -4,9 +4,7 @@
 
 I have been having issues with my GitHub set-up on my laptop, but I finally figured out what the issue was! (visible from my initial commits
 
-#About
-
-This website is covering Litecoin. My first cryptocurrency investment. Who founded, it and what cryptocurrencies are. This is related to my final year project (topic wise).
+This website is covering Litecoin and other cryptocurrencies. This is an industry that is of interest to me for the past year. It is also related to my final year project.
 
 #Sections
 
@@ -25,12 +23,12 @@ Used Alignment to place items thoughtfully and create a layout
 Used Repetition to repeat the design over different pages throughout
 Used Contrast Simple colourway and themed and visually inviting
 
-Accessiblestyl of website design. 
+Accessibility of website design. 
 
 Mobile first design.
 
 #references
-#Index page:
+#Content:
 https://www.engadget.com/2015/01/21/cryptocurrency-explainer/
 Website widget:
 All widgets from coinmarketcap.com/tools
